@@ -1,0 +1,29 @@
+{
+  "name": "zookeepr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msvillarreal21/zookeepr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msvillarreal21/zookeepr/issues"
+  },
+  "homepage": "https://github.com/msvillarreal21/zookeepr#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
